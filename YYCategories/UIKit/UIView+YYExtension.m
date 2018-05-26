@@ -7,7 +7,6 @@
 //
 
 #import "UIView+YYExtension.h"
-#import <Masonry/Masonry.h>
 
 @implementation UIView (YYExtension)
 
