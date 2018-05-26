@@ -23,5 +23,6 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z'
   s.frameworks = 'UIKit', 'CoreFoundation' ,'QuartzCore', 'CoreGraphics', 'CoreImage', 'CoreText', 'ImageIO', 'Accelerate'
+  s.dependency 'Masonry'
 
 end

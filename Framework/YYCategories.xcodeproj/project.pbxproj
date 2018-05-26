@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA05760B20B9091D00274630 /* UIView+YYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BA05760920B9091D00274630 /* UIView+YYExtension.h */; };
+		BA05760C20B9091D00274630 /* UIView+YYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05760A20B9091D00274630 /* UIView+YYExtension.m */; };
 		D9A21C5F1F055F4000D937E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D584F21F055ED700CBBB61 /* CoreGraphics.framework */; };
 		D9A21C601F055F4000D937E1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D584F11F055ED300CBBB61 /* QuartzCore.framework */; };
 		D9A21C611F055F4000D937E1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D584F01F055ECF00CBBB61 /* Accelerate.framework */; };
@@ -80,6 +82,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA05760920B9091D00274630 /* UIView+YYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YYExtension.h"; sourceTree = "<group>"; };
+		BA05760A20B9091D00274630 /* UIView+YYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYExtension.m"; sourceTree = "<group>"; };
 		D9D5845F1F055E2200CBBB61 /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D584631F055E2200CBBB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9D5846C1F055E6A00CBBB61 /* NSArray+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YYAdd.h"; sourceTree = "<group>"; };
@@ -280,6 +284,8 @@
 				D9D584A71F055E6A00CBBB61 /* UITextField+YYAdd.m */,
 				D9D584A81F055E6A00CBBB61 /* UIView+YYAdd.h */,
 				D9D584A91F055E6A00CBBB61 /* UIView+YYAdd.m */,
+				BA05760920B9091D00274630 /* UIView+YYExtension.h */,
+				BA05760A20B9091D00274630 /* UIView+YYExtension.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 				D9D584E81F055E6A00CBBB61 /* YYCategories.h in Headers */,
 				D9D584E61F055E6A00CBBB61 /* UIView+YYAdd.h in Headers */,
 				D9D584B81F055E6A00CBBB61 /* NSNotificationCenter+YYAdd.h in Headers */,
+				BA05760B20B9091D00274630 /* UIView+YYExtension.h in Headers */,
 				D9D584B01F055E6A00CBBB61 /* NSData+YYAdd.h in Headers */,
 				D9D584D01F055E6A00CBBB61 /* UIBezierPath+YYAdd.h in Headers */,
 				D9D584E21F055E6A00CBBB61 /* UITableView+YYAdd.h in Headers */,
@@ -410,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D584CF1F055E6A00CBBB61 /* UIBarButtonItem+YYAdd.m in Sources */,
+				BA05760C20B9091D00274630 /* UIView+YYExtension.m in Sources */,
 				D9D584D91F055E6A00CBBB61 /* UIFont+YYAdd.m in Sources */,
 				D9D584E11F055E6A00CBBB61 /* UIScrollView+YYAdd.m in Sources */,
 				D9D584AF1F055E6A00CBBB61 /* NSBundle+YYAdd.m in Sources */,
