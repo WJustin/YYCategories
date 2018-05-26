@@ -11,14 +11,14 @@
 
 @interface UIView (YYExtension)
 
-- (void)addTapGestureWithTarget:(id)target
-                         action:(SEL)action;
-- (void)addTapGestureWithTarget:(id)target
-                         action:(SEL)action
-                        viewTag:(NSInteger)viewTag;
-- (void)addTapGestureWithTarget:(id)target
-                         action:(SEL)action
-           numberOfTapsRequired:(NSUInteger)numberOfTapsRequired;
+- (void)yy_addTapGestureWithTarget:(id)target
+                            action:(SEL)action;
+- (void)yy_addTapGestureWithTarget:(id)target
+                            action:(SEL)action
+                           viewTag:(NSInteger)viewTag;
+- (void)yy_addTapGestureWithTarget:(id)target
+                            action:(SEL)action
+              numberOfTapsRequired:(NSUInteger)numberOfTapsRequired;
 
 @property (nonatomic, strong, readonly) MASViewAttribute *yy_left;
 @property (nonatomic, strong, readonly) MASViewAttribute *yy_top;
